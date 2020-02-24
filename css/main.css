@@ -1,0 +1,125 @@
+
+.keys
+{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+}
+.keyboard_setting
+{
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 45px;
+
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.func
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.area
+{
+    font-size: 35px;
+    line-height: 35px;
+
+    max-width: 1000px;
+    min-height: 35px;
+    margin-right: 10px;
+    padding: 0 10px;
+
+    text-align: right;
+
+    color: #b7b7b7;
+    border: none;
+    border-right: 2px solid #b7b7b7;
+    outline: none;
+    background-color: #000;
+
+    tab-index: -20;
+}
+.del_symb,
+.space,
+.changeLang
+{
+    font-size: 35px;
+    line-height: 35px;
+
+    padding: 0 10px;
+
+    color: #fff;
+}
+
+.changeLang
+{
+    padding-top: 4px;
+}
+
+.del_symb
+{
+    margin-top: -3px;
+    padding-top: 5px;
+}
+
+.space
+{
+    margin-top: -6px;
+    padding-top: 13px;
+}
+
+.keyboard
+{
+    margin-top: 20px;
+}
+.keyboard_lang
+{
+    float: left;
+
+    max-width: 1060px;
+}
+.numbers
+{
+    float: right;
+}
+.key,
+.number
+{
+    font-size: 21px;
+    line-height: 27px;
+
+    display: block;
+    float: left;
+
+    min-width: 29px;
+    height: 29px;
+    margin-right: 3px;
+
+    text-align: center;
+
+    color: white;
+}
+
+.key:focus,
+.number:focus,
+.del_symb:focus,
+.space:focus,
+.changeLang:focus,
+.key:hover,
+.number:hover,
+.del_symb:hover,
+.space:hover,
+.changeLang:hover
+{
+    border-radius: 30px;
+    outline: none;
+    background-color: #399;
+}
+
+.area
+{
+    min-width: 30%;
+}

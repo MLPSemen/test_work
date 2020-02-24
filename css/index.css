@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Arial',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    max-width: 1400px;
+    margin: 0 auto;
+
+    color: #000;
+    background-color: #fff;
+}
+
+img
+{
+    max-width: 100%;
+}
+a
+{
+    text-decoration: none;
+
+    color: inherit;
+}
+
+.visual-hidden:not(:focus):not(:active),
+input[type='checkbox'].visual-hidden,
+input[type='radio'].visual-hidden
+{
+    position: absolute;
+
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+
+    white-space: nowrap;
+
+    border: 0;
+
+    clip-path: inset(100%);
+}
+
+.clearfix::after
+{
+    display: table;
+    clear: both;
+
+    content: '';
+}
+.container
+{
+    width: 1400px;
+    min-height: 200px;
+    margin: 0 auto;
+
+    background-color: #000;
+}
